@@ -1,0 +1,73 @@
+<div class="container" m-5>
+  <h1 class="text-center">Birth Detail</h1>
+  <ul class="list-group">
+    <li class="list-group-item">
+      Date: <%= birth.year %>-<%= birth.month %>-<%= birth.day %>
+    </li>
+    <li class="list-group-item">
+      Time: <%= birth.hour %>:<%= birth.minute %>:<%= birth.second %>
+    </li>
+    <li class="list-group-item">Latitude: <%= birth.latitude %></li>
+    <li class="list-group-item">Longitude: <%= birth.longitude %></li>
+    <li class="list-group-item">Time Zone: <%= birth.timezone %></li>
+    <li class="list-group-item">Ayana Msha: <%= birth.ayanamsha %></li>
+    <li class="list-group-item">Sun Rise: <%= birth.sunrise %></li>
+    <li class="list-group-item">Sun Set: <%= birth.sunset %></li>
+  </ul>
+  <h1 class="text-center">Astro Detail</h1>
+  <ul class="list-group">
+    <li class="list-group-item">Ascendant: <%= astro.ascendant %></li>
+    <li class="list-group-item">Ascendant Lord: <%= astro.ascendant_lord %></li>
+    <li class="list-group-item">Varna: <%= astro.Varna %></li>
+    <li class="list-group-item">Vashya: <%= astro.Vashya %></li>
+
+    <li class="list-group-item">Yoni: <%= astro.Yoni %></li>
+    <li class="list-group-item">Gan: <%= astro.Gan %></li>
+    <li class="list-group-item">Nadi: <%= astro.Nadi %></li>
+    <li class="list-group-item">SignLord: <%= astro.SignLord %></li>
+    <li class="list-group-item">sign: <%= astro.sign %></li>
+    <li class="list-group-item">Naksahtra: <%= astro.Naksahtra %></li>
+    <li class="list-group-item">NaksahtraLord: <%= astro.NaksahtraLord %></li>
+    <li class="list-group-item">Charan: <%= astro.Charan %></li>
+    <li class="list-group-item">Yog: <%= astro.Yog %></li>
+    <li class="list-group-item">Karan: <%= astro.Karan %></li>
+    <li class="list-group-item">Tithi: <%= astro.Tithi %></li>
+    <li class="list-group-item">yunja: <%= astro.yunja %></li>
+    <li class="list-group-item">tatva: <%= astro.tatva %></li>
+    <li class="list-group-item">name alphabet: <%= astro.name_alphabet %></li>
+    <li class="list-group-item">paya: <%= astro.paya %></li>
+  </ul>
+  <h1 class="text-center">Basic Gem Suggestion</h1>
+  <h3>Life</h3>
+  <ul class="list-group">
+    <li class="list-group-item">Name: <%= gem.LIFE.name %></li>
+    <li class="list-group-item">gem_key: <%= gem.LIFE.gem_key %></li>
+    <li class="list-group-item">semi_gem: <%= gem.LIFE.semi_gem %></li>
+    <li class="list-group-item">wear_finger: <%= gem.LIFE.wear_finger %></li>
+    <li class="list-group-item">weight_caret: <%= gem.LIFE.weight_caret %></li>
+    <li class="list-group-item">wear_metal: <%= gem.LIFE.wear_metal %></li>
+    <li class="list-group-item">wear_day: <%= gem.LIFE.wear_day %></li>
+    <li class="list-group-item">gem_deity: <%= gem.LIFE.gem_deity %></li>
+  </ul>
+  <h3>Benefic</h3>
+  <ul class="list-group">
+    <li class="list-group-item">Name: <%= gem.BENEFIC.name %></li>
+    <li class="list-group-item">
+      weight_caret: <%= gem.BENEFIC.weight_caret %>
+    </li>
+    <li class="list-group-item">wear_metal: <%= gem.BENEFIC.wear_metal %></li>
+    <li class="list-group-item">wear_day: <%= gem.BENEFIC.wear_day %></li>
+    <li class="list-group-item">gem_deity: <%= gem.BENEFIC.gem_deity %></li>
+  </ul>
+  <h3>Lucky</h3>
+  <ul class="list-group">
+    <li class="list-group-item">Name: <%= gem.LUCKY.name %></li>
+    <li class="list-group-item">gem_key: <%= gem.LUCKY.gem_key %></li>
+    <li class="list-group-item">semi_gem: <%= gem.LUCKY.semi_gem %></li>
+    <li class="list-group-item">wear_finger: <%= gem.LUCKY.wear_finger %></li>
+    <li class="list-group-item">weight_caret: <%= gem.LUCKY.weight_caret %></li>
+    <li class="list-group-item">wear_metal: <%= gem.LUCKY.wear_metal %></li>
+    <li class="list-group-item">wear_day: <%= gem.LUCKY.wear_day %></li>
+    <li class="list-group-item">gem_deity: <%= gem.LUCKY.gem_deity %></li>
+  </ul>
+</div>

@@ -1,0 +1,19 @@
+<div class="container" m-5>
+  <form action="/details" method="POST">
+    <div class="form-group">
+      <label>calendar</label>
+      <input type="date" name="date" class="form-control" required />
+      <label>time</label>
+      <input type="time" name="time" class="form-control" required />
+      <label>latitude</label>
+      <input type="text" name="lat" class="form-control" required />
+      <label>longitude</label>
+      <input type="text" name="long" class="form-control" required />
+      <label>time zone</label>
+      <input type="text" name="timezone" class="form-control" required />
+    </div>
+    <div class="btn-group" mt-3>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>
