@@ -8,4 +8,3 @@ router.get("/", home.home);
 // route to detail page
 router.post("/details", detail.detail);
 module.exports = router;
-a;
