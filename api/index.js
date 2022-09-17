@@ -53,8 +53,7 @@ module.exports.getData = async function (data) {
     })
     // return the error if the api call is not successful
     .catch((err) => {
-      console.log(err);
-      return err;
+      return undefined;
     });
   // return the data from the api request
   return request;
